@@ -64,3 +64,47 @@ console.log(globalLet);
 const a = "a";
 //a = "b" Assigntment to constant variable Error;
 console.log(a);
+
+//Parameters in objects
+let name = "Oscar";
+let age = 32;
+//Antes (ECMAScript 5)
+obj = { name: name, age: age };
+console.log(obj);
+//Después (ECMAScript 6)
+obj2 = { name, age };
+console.log(obj2);
+
+//Arrow Function
+const names = [
+    { name: "Oscar", age: 32 },
+    { name: "Yesica", age: 27 }
+]
+//Antes
+let listOfNames = names.map(function (item) {
+    console.log(item.name);
+})
+//Después
+let listOfNames2 = names.map(item => console.log(item.name));
+const listOfNames3 = (name, age, country) => {
+    //Code...
+}
+const listOfNames4 = name => {
+    //Code...
+}
+const square = num => num * num;
+
+const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if (true) {
+            resolve("Hey!");
+        } else {
+            reject("Ups!");
+        }
+    });
+}
+
+helloPromise()
+    .then(response => console.log(response))
+    .then(()=> console.log("Hola"))
+    .catch(error => console.log(error));
