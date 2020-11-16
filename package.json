@@ -1,0 +1,19 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Learning ECMAScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juaruiura/ECMAScript.git"
+  },
+  "author": "Juan Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juaruiura/ECMAScript/issues"
+  },
+  "homepage": "https://github.com/juaruiura/ECMAScript#readme"
+}
