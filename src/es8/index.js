@@ -29,7 +29,7 @@ const data = {
     design: "Ana",
 };
 
-//Async Await
+//Async functions and Await
 const helloWorld = () => {
     return new Promise((resolve, reject) => {
         (true)

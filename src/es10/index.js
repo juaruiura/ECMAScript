@@ -12,7 +12,7 @@ console.log(hello.trimStart());
 let hello = "hello world   ";
 console.log(hello);
 console.log(hello.trimEnd());
-//Optional Catch Error
+//Optional Catch Binding
 try {
     //Code
 } catch {
